@@ -1,0 +1,25 @@
+# 项目信息
+
+## 数据来源
+数据包: abruptdata (GitHub: regime-shifts/abruptdata)
+数据集: fire_konza_ratajczak - Konza草原长期火烧实验数据
+原始研究: Ratajczak et al. (年份未知), Konza LTER
+
+## 数据描述
+Konza草原生物站是美国最大的长期生态研究站点之一，
+该数据集记录了不同火烧频率处理下植被组成的变化，
+用于研究生态系统的阈值和突变现象。
+
+## 分析方法
+- 时间序列可视化
+- 物种多样性计算
+- 生态阈值检测
+
+## 复现结果
+复现日期: 2026-03-13
+
+## 生成文件
+- 火烧效应图: output/figures/konza_fire_effects.png
+- 多样性变化图: output/figures/konza_diversity.png
+- 阈值点数据: output/tables/konza_threshold_points.csv
+- 分析结果: data/processed/konza_analysis.csv

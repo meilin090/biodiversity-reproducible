@@ -1,0 +1,26 @@
+[1] "========== Grass Cover ANOVA =========="
+                        Df  Sum Sq Mean Sq F value Pr(>F)    
+Fire_treatment           3 2010204  670068  768.88 <2e-16 ***
+Watershed_designation    7  535291   76470   87.75 <2e-16 ***
+Residuals             3418 2978747     871                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+因为不存在，31个观察量被删除了
+[1] ""
+[1] "========== Shrub Cover ANOVA =========="
+                        Df  Sum Sq Mean Sq F value   Pr(>F)    
+Fire_treatment           3  274192   91397 189.565  < 2e-16 ***
+Watershed_designation    7   25675    3668   7.607 3.91e-09 ***
+Residuals             3419 1648444     482                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+因为不存在，30个观察量被删除了
+[1] ""
+[1] "========== Total Cover ANOVA =========="
+                        Df  Sum Sq Mean Sq F value Pr(>F)    
+Fire_treatment           3  980266  326755   399.9 <2e-16 ***
+Watershed_designation    7  681931   97419   119.2 <2e-16 ***
+Residuals             3418 2792599     817                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+因为不存在，31个观察量被删除了
